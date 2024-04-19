@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
   <asmv1:assemblyIdentity name="T-OTP.exe" version="1.0.0.0" publicKeyToken="93d323fa88b7d0da" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="otp.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
     <assemblyIdentity name="T-OTP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -169,7 +170,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1CwTCCdbe09qQGxmmop1nW/m9QoCuqsxoQOp+bBBq4Y=</dsig:DigestValue>
+        <dsig:DigestValue>A7vaJIwg1lg3Z/MkVESAjK65eibmAKMouZ38xfYJUUM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -258,14 +259,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="T-OTP.exe" size="19424">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="T-OTP.exe" size="47072">
       <assemblyIdentity name="T-OTP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>JvwI1WGPmd9S24yOW1iM7YdYqNs13MjdACApHpuQQl0=</dsig:DigestValue>
+        <dsig:DigestValue>g31Ch328mCax2HYComuyKpV8nRA1cc8W4BmKDGiMFxY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -317,6 +318,15 @@
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="otp.ico" size="13578">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lDxNnhgwvCKc4Fez9HqskCyGPWDe6ajy6aC9DBiRMyE=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="T-OTP.exe.config" size="1592">
     <hash>
       <dsig:Transforms>
@@ -343,4 +353,4 @@
       <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
     </application>
   </compatibility>
-<publisherIdentity name="CN=DESKTOP-5JJM0PI\Ringo" issuerKeyHash="389f37155d641eec131973ff9f907d4634589cbc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yz5whHve89s7EP9u6hVmUS8Jqwi84Z8dgJCq7Q4JOao=</DigestValue></Reference></SignedInfo><SignatureValue>bhbY/kPGP7/OXPlPK20TpZi30QUhULYoO70rofpO6CtZS53KK5zlgRDzG6KgX/kWbMGpx+JZrCBEWH+HnrJbk17WWDKL0jgOJHyz+Rwjw1gNk32oqRmDEyGtczo7/ATXxWkVpvHvpje/d5pOVGSzSEStskwl0LMYO8QlhoB84Co=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>95izxdC10fCT+GsF9nRkzA1554V8fp/KrCe2LEqTuAsNcZtakhaZJBEpcHd8w1c3D2iSCsyPt/9i9/04CQO3FJ/BS7JojIjXqDeqOIJAnF1mgU8on3TWGAWK3/A/bxqpOdc7qJ6I/AyrT7nxG8GOHSh/hLSPpfERqLePBxjNZ4E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="aa39090eedaa90801d9fe1bc08ab092f516615ea6eff103bdbf3de7b84703ecb" Description="" Url=""><as:assemblyIdentity name="T-OTP.exe" version="1.0.0.0" publicKeyToken="93d323fa88b7d0da" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-5JJM0PI\Ringo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xV2DiFV65qvEyErxvv+8G35SaU0wFydIBiHmKR5RSjw=</DigestValue></Reference></SignedInfo><SignatureValue>wH+BiCwckO8C8iR/rZLG+bx+1UK/GpBh6+t90/XJOsAaIKvS5GzybmIap0KPoJ5Um6qz7Fv09p082oP0Y9uFVDaTNBrj/OFqz2OkB8uauxbvSV1DGnhZzk5qSaqt9mDOJFyPRr2aprU5KB7cZahblb5bba51EWqRR/7cfpesKJ4=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>95izxdC10fCT+GsF9nRkzA1554V8fp/KrCe2LEqTuAsNcZtakhaZJBEpcHd8w1c3D2iSCsyPt/9i9/04CQO3FJ/BS7JojIjXqDeqOIJAnF1mgU8on3TWGAWK3/A/bxqpOdc7qJ6I/AyrT7nxG8GOHSh/hLSPpfERqLePBxjNZ4E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQYYwBOMbcZ4dKPyO/vadAaDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADUASgBKAE0AMABQAEkAXABSAGkAbgBnAG8wHhcNMjQwNDE5MTIxODAwWhcNMjUwNDE5MTgxODAwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADUASgBKAE0AMABQAEkAXABSAGkAbgBnAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPeYs8XQtdHwk/hrBfZ0ZMwNeeeFfH6fyqwntixKk7gLDXGbWpIWmSQRKXB3fMNXNw9okgrMj7f/Yvf9OAkDtxSfwUuyaIyI16g3qjiCQJxdZoFPKJ901hgFit/wP28aqTnXO6ieiPwMq0+58RvBjh0of4S0j6XxEai3jwcYzWeBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAngoz4bxMfYZ/JyqiCByUtIwQd+V4p/YiD29W4asznuckvgrod6Ilu0IllqbAyVAVeFg38Lma1CG/he/AycORhZRaEq+dkjR3+HH3p0GGnSWy3ePZo7O/TBxiaoDXK/drf4Kn/NhCrx0Z96wttaJ3Ud1woqtBLDRNArbyP9yVw+k=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
+<publisherIdentity name="CN=DESKTOP-5JJM0PI\Ringo" issuerKeyHash="389f37155d641eec131973ff9f907d4634589cbc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>yJ2MDOkRPhJcPAXMoWM5RuVj7e8vRMRguz+J6fYYH1s=</DigestValue></Reference></SignedInfo><SignatureValue>JeD9zeSBIOMxiXGb+hI4glJKmBoczKAOLcEnjW5PhtsyL8axPc9+fo8qQMBJa20n7x7czDUd5zmQw3j75OWsA8bfd9YGZAjYagf7q10RVmQeGfVws03qVJq+edfjI+AxTMOLIIR2XOeq/xyxRcPVAbVKtYVrfJku6s5VEuMIhiA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>95izxdC10fCT+GsF9nRkzA1554V8fp/KrCe2LEqTuAsNcZtakhaZJBEpcHd8w1c3D2iSCsyPt/9i9/04CQO3FJ/BS7JojIjXqDeqOIJAnF1mgU8on3TWGAWK3/A/bxqpOdc7qJ6I/AyrT7nxG8GOHSh/hLSPpfERqLePBxjNZ4E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="5b1f18f6e9893fbb60c4442fefed63e5463963a1cc053c5c123e11e90c8c9dc8" Description="" Url=""><as:assemblyIdentity name="T-OTP.exe" version="1.0.0.0" publicKeyToken="93d323fa88b7d0da" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-5JJM0PI\Ringo</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ilHe0ifihfX2VfknFq5Mm0eheunJaR9f0xzCAnzf1UQ=</DigestValue></Reference></SignedInfo><SignatureValue>qa3rrV1AQQGZ0/RbcZCE9SoMKp2yJY223Sgxx7CGimEFwSCgi0yU/yFUukq04m+l+nk/zH4I88YgNukRavuU6vDncoB6k9U5f+by5ltD9q0bkYFTW5e7MsyzzpgiMYzdlweiXeTIyuBbafNiQVSso6NCOiMiNa+JfhqANA6J+to=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>95izxdC10fCT+GsF9nRkzA1554V8fp/KrCe2LEqTuAsNcZtakhaZJBEpcHd8w1c3D2iSCsyPt/9i9/04CQO3FJ/BS7JojIjXqDeqOIJAnF1mgU8on3TWGAWK3/A/bxqpOdc7qJ6I/AyrT7nxG8GOHSh/hLSPpfERqLePBxjNZ4E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQYYwBOMbcZ4dKPyO/vadAaDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADUASgBKAE0AMABQAEkAXABSAGkAbgBnAG8wHhcNMjQwNDE5MTIxODAwWhcNMjUwNDE5MTgxODAwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADUASgBKAE0AMABQAEkAXABSAGkAbgBnAG8wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPeYs8XQtdHwk/hrBfZ0ZMwNeeeFfH6fyqwntixKk7gLDXGbWpIWmSQRKXB3fMNXNw9okgrMj7f/Yvf9OAkDtxSfwUuyaIyI16g3qjiCQJxdZoFPKJ901hgFit/wP28aqTnXO6ieiPwMq0+58RvBjh0of4S0j6XxEai3jwcYzWeBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAngoz4bxMfYZ/JyqiCByUtIwQd+V4p/YiD29W4asznuckvgrod6Ilu0IllqbAyVAVeFg38Lma1CG/he/AycORhZRaEq+dkjR3+HH3p0GGnSWy3ePZo7O/TBxiaoDXK/drf4Kn/NhCrx0Z96wttaJ3Ud1woqtBLDRNArbyP9yVw+k=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
